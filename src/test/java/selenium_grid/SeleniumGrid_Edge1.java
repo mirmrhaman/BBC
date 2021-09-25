@@ -15,7 +15,7 @@ public class SeleniumGrid_Edge1 {
     public void executeInAwsDocker() {
         EdgeOptions edgeOptions = new EdgeOptions();
         try {
-            gridUrl = new URL("http://100.26.182.142:4444/wd/hub");
+            gridUrl = new URL("http://3.144.39.31/:4444/wd/hub");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
