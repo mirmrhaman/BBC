@@ -1,8 +1,0 @@
-2021-09-23 10:48:13.016 [main][3039] INFO  step_definitions.Hooks - Launch Chrome Browser
-2021-09-23 10:48:15.393 [main][5416] INFO  step_definitions.Hooks - User is on home page
-2021-09-23 10:48:15.431 [main][5454] DEBUG page_object.SignIn - Click on the Sign in on Home Page
-2021-09-23 10:48:17.845 [main][7868] DEBUG page_object.SignIn - User entered Email Id is: mirmrhaman@gmail.com
-2021-09-23 10:48:18.131 [main][8154] DEBUG page_object.SignIn - User entered Password is: m12345678
-2021-09-23 10:48:19.821 [main][9844] INFO  page_object.SignIn - user has clicked on sign in button
-2021-09-23 10:48:19.949 [main][9972] INFO  page_object.SignIn - User is in user home page
-2021-09-23 10:48:20.619 [main][10642] INFO  step_definitions.Hooks - Close Chrome Browser

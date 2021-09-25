@@ -23,26 +23,26 @@ public class FollowOnFaceBook extends NavigationBar {
 
     public FollowOnFaceBook userClickedOnTravel() {
         ActOn.element(driver, TravelButton).click();
-        LOGGER.info("User clicked on travel button");
+        LOGGER.debug("User clicked on travel button");
         return this;
     }
 
     public FollowOnFaceBook validateUserIsInTravelPage() {
         boolean travelLogoDisplayed = driver.findElement(TravelLogo).isDisplayed();
         Assert.assertTrue("User is not on Travel Page", travelLogoDisplayed);
-        LOGGER.info("User is on Travel Page");
+        LOGGER.debug("User is on Travel Page");
         return this;
     }
 
     public FollowOnFaceBook clickOnMore() {
         ActOn.element(driver, MoreButton).click();
-        LOGGER.info("User navigate to more options");
+        LOGGER.debug("User navigate to more options");
         return this;
     }
 
     public FollowOnFaceBook clickOnFaceBookIcon() {
         ActOn.element(driver, FaceBookLogo).click();
-        LOGGER.info("user navigate to follow by Face Book");
+        LOGGER.debug("user navigate to follow by Face Book");
         return this;
     }
 
@@ -53,5 +53,12 @@ public class FollowOnFaceBook extends NavigationBar {
         }
         return this;
 
+    }
+
+    public FollowOnFaceBook validateUserOnFaceBookPage() {
+        boolean faceBookPageDisplayed = driver.findElement(FaceBookBanner).isDisplayed();
+        Assert.assertTrue("User is not on Face Book Page", faceBookPageDisplayed);
+        LOGGER.debug("user is on Face book page");
+        return this;
     }
 }

@@ -20,32 +20,32 @@ public class Weather extends NavigationBar {
 
     public Weather navigateToEditWeather() {
         ActOn.element(driver, EditWeather).click();
-        LOGGER.info("user clicked on edit button in weather");
+        LOGGER.debug("user clicked on edit button in weather");
         return this;
     }
 
     public Weather enterCityInEditOption(String value) {
         ActOn.element(driver, SearchCity).setValue(value);
-        LOGGER.info("User entered name of city is: " + value);
+        LOGGER.debug("User entered name of city is: " + value);
         return this;
     }
 
     public Weather enterCityInEditOptionAndClick(){
             ActOn.element(driver, SearchButton).click();
-            LOGGER.info("user clicked on search to implicit");
+            LOGGER.debug("user clicked on search to implicit");
             return this;
     }
 
     public Weather validateUserFindNamesOfLocations () {
         boolean searchResultDisplayed = driver.findElement(NewYorkSelect).isDisplayed();
         Assert.assertTrue(" Search result is not displayed", searchResultDisplayed);
-        LOGGER.info("Search result show successfully");
+        LOGGER.debug("Search result show successfully");
         return this;
     }
 
     public Weather clickOnNewYork() throws InterruptedException {
         ActOn.element(driver, NewYorkSelect).click();
-        LOGGER.info("user select New York location");
+        LOGGER.debug("user select New York location");
         Thread.sleep(3000);
         return this;
     }
@@ -53,7 +53,7 @@ public class Weather extends NavigationBar {
     public Weather validateUserSelectedWeatherSuccessfully() {
         boolean newYorkWeatherDisplayed = driver.findElement(NewYorkWeather).isDisplayed();
         Assert.assertTrue("New York is not displayed", newYorkWeatherDisplayed);
-        LOGGER.info("User can see New York weather");
+        LOGGER.debug("User can see New York weather");
         return this;
     }
 }

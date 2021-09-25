@@ -19,21 +19,21 @@ public class OnAir  extends NavigationBar{
 
     public OnAir navigateToOnAir(){
         ActOn.element(driver,OnAir).click();
-        LOGGER.info("user clicked on On Air button");
+        LOGGER.debug("user clicked on On Air button");
         return this;
     }
 
     public OnAir clickOnAir() throws InterruptedException {
         ActOn.element(driver, Live).click();
         Thread.sleep(20000);
-        LOGGER.info("User played on live voice");
+        LOGGER.debug("User played on live voice");
     return this;
     }
 
     public OnAir validateUserPlayOnLiveProgramme() {
         Boolean onLiveProgrammePlayed = driver.findElement(WorldService).isDisplayed();
         Assert.assertTrue("On Live programme is not played", onLiveProgrammePlayed);
-        LOGGER.info("User played On Live programme");
+        LOGGER.debug("User played On Live programme");
         return this;
     }
 }

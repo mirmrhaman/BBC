@@ -20,27 +20,27 @@ public class Language extends NavigationBar {
 
     public Language navigateToBanglaInLanguase () {
         ActOn.element(driver,Bangla).click();
-        LOGGER.info("User clicked on Bangla in Language");
+        LOGGER.debug("User clicked on Bangla in Language");
         return this;
     }
 
     public Language validateUserOnBanglaServicePage () {
         boolean BBCDisplayedInBanglaService = driver.findElement(BengaliServiceLink).isDisplayed();
         Assert.assertTrue("BBC NEWS|Bangla is not displayed",BBCDisplayedInBanglaService);
-        LOGGER.info("User successfully getting Bangla services");
+        LOGGER.debug("User successfully getting Bangla services");
         return this;
     }
 
     public Language navigateToHindiInLanguase () {
         ActOn.element(driver,Hindi).click();
-        LOGGER.info("User clicked on Hindi in Language");
+        LOGGER.debug("User clicked on Hindi in Language");
         return this;
     }
 
     public Language validateUserOnHindiServicePage () {
         boolean BBCDisplayedInHindiService = driver.findElement(HindiServiceLink).isDisplayed();
         Assert.assertTrue("BBC NEWS|Hindi is not displayed", BBCDisplayedInHindiService);
-        LOGGER.info("User successfully getting Hindi services");
+        LOGGER.debug("User successfully getting Hindi services");
         return this;
     }
 }

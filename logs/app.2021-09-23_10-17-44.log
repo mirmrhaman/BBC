@@ -1,6 +1,0 @@
-2021-09-23 10:17:47.656 [main][5020] INFO  step_definitions.Hooks - Launch Chrome Browser
-2021-09-23 10:17:49.938 [main][7302] INFO  step_definitions.Hooks - User is on home page
-2021-09-23 10:17:52.437 [main][9801] INFO  page_object.OnAir - user clicked on On Air button
-2021-09-23 10:18:13.479 [main][30843] INFO  page_object.OnAir - User played on live voice
-2021-09-23 10:18:13.619 [main][30983] INFO  page_object.OnAir - User played On Live programme
-2021-09-23 10:18:14.348 [main][31712] INFO  step_definitions.Hooks - Close Chrome Browser

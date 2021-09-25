@@ -20,28 +20,28 @@ public class Sound  extends NavigationBar {
 
     public Sound navigateToSoundButton() {
         ActOn.element(driver, Sound).click();
-        LOGGER.info("user clicked on sound button on home page");
+        LOGGER.debug("user clicked on sound button on home page");
         return this;
     }
 
     public Sound validateUserEnterInSoundPageSuccessfully(){
         boolean soundLogoDisplayed = driver.findElement(SoundImage).isDisplayed();
         Assert.assertTrue("Sound logo is not displayed", soundLogoDisplayed);
-        LOGGER.info("User is on sounds page");
+        LOGGER.debug("User is on sounds page");
         return this;
     }
 
     public Sound playRadioRelax () throws InterruptedException {
         ActOn.element(driver, RadioRelax).click();
         Thread.sleep(20000);
-        LOGGER.info("User played Radio Relax 1 and wait to listen for a moment");
+        LOGGER.debug("User played Radio Relax 1 and wait to listen for a moment");
         return this;
     }
 
     public Sound validateRadioRelaxPlayedSuccessfully () {
         Boolean radioRelaxLogoDisplayed = driver.findElement(RadioRelaxImage).isDisplayed();
         Assert.assertTrue("Radio Relax 1 not found", radioRelaxLogoDisplayed);
-        LOGGER.info("User played Radio Relax 1 successfully");
+        LOGGER.debug("User played Radio Relax 1 successfully");
         return this;
     }
 }

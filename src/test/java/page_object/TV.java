@@ -17,21 +17,21 @@ public class TV extends NavigationBar {
 
     public TV navigateToFeaturedVideo() {
         ActOn.element(driver, FeaturedVideoText).click();
-        LOGGER.info("User clicked on featured video on home page");
+        LOGGER.debug("User clicked on featured video on home page");
         return this;
     }
 
     public TV playFeatureVideo () throws InterruptedException {
         ActOn.element(driver, FeaturedVideo).click();
         Thread.sleep(50000);
-        LOGGER.info("User played a feature video and wait for a moment");
+        LOGGER.debug("User played a feature video and wait for a moment");
         return this;
     }
 
     public TV validateUserPlayedFeatureVideoSuccessfully() {
         boolean featureVideoTextDisplayed = driver.findElement(FeaturedVideoText).isDisplayed();
         Assert.assertTrue("Feature video not played", featureVideoTextDisplayed);
-        LOGGER.info("User played feature video");
+        LOGGER.debug("User played feature video");
         return this;
     }
 }

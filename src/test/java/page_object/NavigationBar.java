@@ -17,7 +17,7 @@ public class NavigationBar {
     // Navigate to Home Page
     public NavigationBar navigateToHomePage () {
         ActOn.browser(driver).openBrowser("https://www.bbc.com/");
-        LOGGER.info("user is on home page");
+        LOGGER.debug("user is on home page");
         return this;
     }
 }

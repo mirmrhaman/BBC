@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.ReadConfigFiles;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
     private static final Logger LOGGER = LogManager.getLogger(Hooks.class);
     static WebDriver driver;
@@ -18,16 +20,19 @@ public class Hooks {
     public void openBrowser() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        LOGGER.info("Launch Chrome Browser");
+        LOGGER.debug("Launch Chrome Browser");
         ActOn.browser(driver).openBrowser("https://www.bbc.com/");
         String url = ReadConfigFiles.getPropertyValue("BBCUrl");
         ActOn.browser(driver).openBrowser(url);
-        LOGGER.info("Browser is successfully initiated with URL: " + url);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        LOGGER.debug("Browser is successfully initiated with URL: " + url);
+        LOGGER.debug("----------Test Starts----------");
     }
 
     @After
     public void closeBrowser() {
         driver.quit();
-        LOGGER.info("Close Chrome Browser");
+        LOGGER.debug("Close Chrome Browser");
+        LOGGER.debug("----------Test Closed----------");
     }
 }

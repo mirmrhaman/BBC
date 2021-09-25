@@ -20,20 +20,20 @@ public class Search extends NavigationBar {
 
     public Search enterTextInSearchOption(String value) {
             ActOn.element(driver, SearchText).setValue(value);
-            LOGGER.info("User entered credentials for search is: " + value);
+            LOGGER.debug("User entered credentials for search is: " + value);
             return this;
     }
 
     public Search userClickOnSearchButton() {
         ActOn.element(driver,SearchButton).click();
-        LOGGER.info("User clicked on search button successfully");
+        LOGGER.debug("User clicked on search button successfully");
     return this;
     }
 
     public Search validateSearchResultPage() {
         boolean searchTextDisplayed = driver.findElement(SearchTextResult).isDisplayed();
         Assert.assertTrue("Text result is not displayed", searchTextDisplayed);
-        LOGGER.info("Text Result Successful");
+        LOGGER.debug("Text Result Successful");
         return this;
     }
 }

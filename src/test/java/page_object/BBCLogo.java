@@ -25,20 +25,20 @@ public class BBCLogo extends NavigationBar {
 
     public BBCLogo clickOnBBCLogo() {
         ActOn.element(driver,BBCLogo).click();
-        LOGGER.info("User clicked on BBC Logo");
+        LOGGER.debug("User clicked on BBC Logo");
         return this;
     }
 
     public BBCLogo navigateToNewsPage() {
         ActOn.element(driver,News).click();
-        LOGGER.info("User is on News page");
+        LOGGER.debug("User is on News page");
         return this;
     }
 
     public BBCLogo validateUserOnNewsPage(){
         boolean NEWSLogoDisplayed = driver.findElement(NewsImage).isDisplayed();
         Assert.assertTrue("NEWS Logo is not displayed", NEWSLogoDisplayed);
-        LOGGER.info("User is verified in NEWS page");
+        LOGGER.debug("User is verified in NEWS page");
 
         return this;
     }
@@ -46,14 +46,14 @@ public class BBCLogo extends NavigationBar {
     public BBCLogo clickOnBBCLogoFromNewsPage() {
         boolean BBCLogoDisplayedFromNews = driver.findElement(Welcome).isDisplayed();
         Assert.assertTrue("Welcome to BBC.com is not displayed", BBCLogoDisplayedFromNews);
-        LOGGER.info("User return to home page from news page");
+        LOGGER.debug("User return to home page from news page");
 
         return this;
     }
 
     public BBCLogo navigateToSportPage() {
         ActOn.element(driver,Sport).click();
-        LOGGER.info("User is on Sport page");
+        LOGGER.debug("User is on Sport page");
 
         return this;
     }
@@ -61,54 +61,54 @@ public class BBCLogo extends NavigationBar {
     public BBCLogo validateUserOnSportPage(){
         boolean SportLogoDisplayed = driver.findElement(SportImage).isDisplayed();
         Assert.assertTrue("SPORT Logo is not displayed", SportLogoDisplayed);
-        LOGGER.info("User is verified in SPORT page");
+        LOGGER.debug("User is verified in SPORT page");
         return this;
     }
 
     public BBCLogo clickOnBBCLogoFromSportPage() {
         boolean BBCLogoDisplayedFromSport = driver.findElement(Welcome).isDisplayed();
         Assert.assertTrue("Welcome to BBC.com is not displayed", BBCLogoDisplayedFromSport);
-        LOGGER.info("User return to home page from sport page");
+        LOGGER.debug("User return to home page from sport page");
         return this;
     }
 
     public BBCLogo navigateToTravelPage() {
         ActOn.element(driver,Travel).click();
-        LOGGER.info("User is on Travel page");
+        LOGGER.debug("User is on Travel page");
         return this;
     }
 
     public BBCLogo validateUserOnTravelPage(){
         boolean TRAVELLogoDisplayed = driver.findElement(TravelImage).isDisplayed();
         Assert.assertTrue("TRAVEL Logo is not displayed", TRAVELLogoDisplayed);
-        LOGGER.info("User is verified in TRAVEL page");
+        LOGGER.debug("User is verified in TRAVEL page");
         return this;
     }
 
     public BBCLogo clickOnBBCLogoFromTravelPage() {
         boolean BBCLogoDisplayedFromTravel = driver.findElement(Welcome).isDisplayed();
         Assert.assertTrue("Welcome to BBC.com is not displayed", BBCLogoDisplayedFromTravel);
-        LOGGER.info("User return to home page from travel page");
+        LOGGER.debug("User return to home page from travel page");
         return this;
     }
 
     public BBCLogo navigateToFuturePage() {
         ActOn.element(driver,Future).click();
-        LOGGER.info("User is on Future page");
+        LOGGER.debug("User is on Future page");
         return this;
     }
 
     public BBCLogo validateUserOnFuturePage(){
         boolean FUTURELogoDisplayed = driver.findElement(FutureImage).isDisplayed();
         Assert.assertTrue("FUTURE Logo is not displayed", FUTURELogoDisplayed);
-        LOGGER.info("User is verified in FUTURE page");
+        LOGGER.debug("User is verified in FUTURE page");
         return this;
     }
 
     public BBCLogo clickOnBBCLogoFromFuturePage() {
         boolean BBCLogoDisplayedFromFuture = driver.findElement(Welcome).isDisplayed();
         Assert.assertTrue("Welcome to BBC.com is not displayed", BBCLogoDisplayedFromFuture);
-        LOGGER.info("User return to home page from future page");
+        LOGGER.debug("User return to home page from future page");
         return this;
     }
 }
