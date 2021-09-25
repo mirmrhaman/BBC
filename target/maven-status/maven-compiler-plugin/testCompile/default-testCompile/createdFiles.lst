@@ -2,7 +2,6 @@ page_object\Search.class
 page_object\Home.class
 utilities\TestEnvironment.class
 step_definitions\HomePageByBBCLogo.class
-page_object\FollowFaceBook.class
 command_providers\ElementActions.class
 page_object\OnAir.class
 step_definitions\SharedBBCLinkByMailSteps.class
@@ -10,7 +9,7 @@ page_object\TV.class
 step_definitions\LanguageSelectionSteps.class
 page_object\Sound.class
 page_object\BBCLogo.class
-page_object\SwitchWindow.class
+page_object\FollowOnFaceBook.class
 step_definitions\ParentalGuidanceLockSteps.class
 step_definitions\SignOutSteps.class
 step_definitions\WeatherEditSteps.class
@@ -31,7 +30,7 @@ command_providers\ActOn.class
 step_definitions\SignInSteps.class
 step_definitions\TvSteps.class
 command_providers\ElementAssertions.class
-step_definitions\FollowOnFaceBook.class
 step_definitions\SearchSteps.class
 step_definitions\OnAirPlaySteps.class
 command_providers\WaitFor.class
+step_definitions\FollowOnFaceBookSteps.class

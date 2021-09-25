@@ -6,20 +6,18 @@ C:\AutomationProject\BBC\src\test\java\step_definitions\OnAirPlaySteps.java
 C:\AutomationProject\BBC\src\test\java\command_providers\ActOn.java
 C:\AutomationProject\BBC\src\test\java\page_object\Sound.java
 C:\AutomationProject\BBC\src\test\java\runner\TestRunner.java
+C:\AutomationProject\BBC\src\test\java\page_object\FollowOnFaceBook.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\SignInSteps.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\Hooks.java
 C:\AutomationProject\BBC\src\test\java\command_providers\ElementAssertions.java
-C:\AutomationProject\BBC\src\test\java\step_definitions\FollowOnFaceBook.java
 C:\AutomationProject\BBC\src\test\java\page_object\Search.java
 C:\AutomationProject\BBC\src\test\java\page_object\SignOut.java
 C:\AutomationProject\BBC\src\test\java\command_providers\ElementActions.java
 C:\AutomationProject\BBC\src\test\java\page_object\Weather.java
 C:\AutomationProject\BBC\src\test\java\utilities\TestEnvironment.java
-C:\AutomationProject\BBC\src\test\java\page_object\FollowFaceBook.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\LanguageSelectionSteps.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\SearchSteps.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\TvSteps.java
-C:\AutomationProject\BBC\src\test\java\page_object\SwitchWindow.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\SoundsSteps.java
 C:\AutomationProject\BBC\src\test\java\command_providers\BrowserActions.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\HomePageByBBCLogo.java
@@ -35,3 +33,4 @@ C:\AutomationProject\BBC\src\test\java\page_object\Language.java
 C:\AutomationProject\BBC\src\test\java\command_providers\AssertThat.java
 C:\AutomationProject\BBC\src\test\java\page_object\OnAir.java
 C:\AutomationProject\BBC\src\test\java\page_object\SignIn.java
+C:\AutomationProject\BBC\src\test\java\step_definitions\FollowOnFaceBookSteps.java
