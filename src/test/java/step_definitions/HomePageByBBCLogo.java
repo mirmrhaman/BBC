@@ -8,12 +8,8 @@ import org.openqa.selenium.WebDriver;
 import page_object.BBCLogo;
 
 public class HomePageByBBCLogo {
-    private static Logger LOGGER = LogManager.getLogger(HomePageByBBCLogo.class);
+ //   private static Logger LOGGER = LogManager.getLogger(HomePageByBBCLogo.class);
     WebDriver driver = Hooks.driver;
-
-    // Precondition
-//    @Given("^a user is on the Home page$")
-
 
     // Additional Action
     @And("^user click on BBC Logo$")

@@ -8,41 +8,41 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import page_object.FollowFaceBook;
+import page_object.FollowOnFaceBook;
 
-    public class FollowOnFaceBook {
-        private static Logger LOGGER = LogManager.getLogger(FollowOnFaceBook.class);
+public class FollowOnFaceBookSteps {
+        private static Logger LOGGER = LogManager.getLogger(FollowOnFaceBookSteps.class);
         WebDriver driver = Hooks.driver;
         String winHandleBefore = driver.getWindowHandle();
         private static final By FaceBookBanner = By.xpath("//u[normalize-space()='Facebook']");
 
         @And("^user navigate to travel$")
         public void userClickedOnTravel() {
-            new FollowFaceBook(driver)
+            new FollowOnFaceBook(driver)
                     .userClickedOnTravel();
         }
 
         @Then("^user is in travel page$")
         public void validateUserIsInTravelPage() {
-            new FollowFaceBook(driver)
+            new FollowOnFaceBook(driver)
                     .validateUserIsInTravelPage();
         }
 
         @When("^user navigate to more$")
         public void clickOnMore() {
-        new FollowFaceBook(driver)
+        new FollowOnFaceBook(driver)
                 .clickOnMore();
         }
 
         @And("^user click on faceBook icon$")
         public void clickOnFaceBookIcon() {
-        new FollowFaceBook(driver)
+        new FollowOnFaceBook(driver)
                 .clickOnFaceBookIcon();
         }
 
         @And("^user is in new window$")
         public void userInNewWindow() {
-            new FollowFaceBook(driver)
+            new FollowOnFaceBook(driver)
                     .userInNewWindow();
         }
 

@@ -12,15 +12,10 @@ public class SignOut extends NavigationBar {
     public SignOut (WebDriver driver) {
         super(driver);
     }
-    private static final By EmailId = By.xpath("//input[@id='user-identifier-input']");
-    private static final By Password = By.xpath("//input[@id='password-input']");
-    private static final By SignIn = By.xpath("//button[@id='submit-button']");
+
     private static final By UserId = By.id("idcta-username");
     private static final By SignOut = By.xpath("//span[text()='Sign out']");
     private static final By SignOutMsg = By.cssSelector(".u-padding-bottom-quad");
-
-
-
 
     public SignOut validateUserIsSignInSuccessfully() {
         boolean userIdDisplayed = driver.findElement(UserId).isDisplayed();

@@ -1,10 +1,10 @@
 2021-09-23 16:26:25.161 [main][5113] INFO  step_definitions.Hooks - Launch Chrome Browser
 2021-09-23 16:26:27.494 [main][7446] INFO  step_definitions.Hooks - User is on home page
-2021-09-23 16:26:29.583 [main][9535] INFO  page_object.FollowFaceBook - User clicked on travel button
-2021-09-23 16:26:29.688 [main][9640] INFO  page_object.FollowFaceBook - User is on Travel Page
-2021-09-23 16:26:29.860 [main][9812] INFO  page_object.FollowFaceBook - User navigate to more options
-2021-09-23 16:26:30.046 [main][9998] INFO  page_object.FollowFaceBook - user navigate to follow by Face Book
-2021-09-23 16:26:32.976 [main][12928] INFO  step_definitions.FollowOnFaceBook - user is on Face book page
+2021-09-23 16:26:29.583 [main][9535] INFO  page_object.FollowOnFaceBook - User clicked on travel button
+2021-09-23 16:26:29.688 [main][9640] INFO  page_object.FollowOnFaceBook - User is on Travel Page
+2021-09-23 16:26:29.860 [main][9812] INFO  page_object.FollowOnFaceBook - User navigate to more options
+2021-09-23 16:26:30.046 [main][9998] INFO  page_object.FollowOnFaceBook - user navigate to follow by Face Book
+2021-09-23 16:26:32.976 [main][12928] INFO  step_definitions.FollowOnFaceBookSteps - user is on Face book page
 2021-09-23 16:26:33.839 [main][13791] INFO  step_definitions.Hooks - Close Chrome Browser
 2021-09-23 16:26:35.113 [main][15065] INFO  step_definitions.Hooks - Launch Chrome Browser
 2021-09-23 16:26:37.296 [main][17248] INFO  step_definitions.Hooks - User is on home page

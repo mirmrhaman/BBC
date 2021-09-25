@@ -5,8 +5,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_object.SignIn;
 
@@ -14,16 +12,11 @@ import java.util.List;
 import java.util.Map;
 
 public class SignInSteps {
-    private static Logger LOGGER = LogManager.getLogger(SignInSteps.class);
     WebDriver driver = Hooks.driver;
 
     // Precondition
     @Given("^a user is on the Home page$")
     public void navigateToHomePage() {
-////        ActOn.browser(driver).openBrowser("https://www.bbc.com/");
-////        LOGGER.info("User is on home page");
-//        new SignIn(driver)
-//                .navigateToHomePage();
     }
 
     @And("^user navigate to Sign in page$")

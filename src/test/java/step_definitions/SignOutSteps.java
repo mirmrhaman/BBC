@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import page_object.SignOut;
 
 public class SignOutSteps {
-//     private static Logger LOGGER = LogManager.getLogger(SignOutSteps.class);
     WebDriver driver = Hooks.driver;
 
     @Then("^user is navigated to profile home page$")

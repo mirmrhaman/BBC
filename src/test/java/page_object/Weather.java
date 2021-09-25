@@ -50,8 +50,6 @@ public class Weather extends NavigationBar {
         return this;
     }
 
-
-
     public Weather validateUserSelectedWeatherSuccessfully() {
         boolean newYorkWeatherDisplayed = driver.findElement(NewYorkWeather).isDisplayed();
         Assert.assertTrue("New York is not displayed", newYorkWeatherDisplayed);

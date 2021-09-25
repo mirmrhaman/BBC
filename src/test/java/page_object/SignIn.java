@@ -17,8 +17,6 @@ public class SignIn extends NavigationBar {
     private static final By Password = By.xpath("//input[@id='password-input']");
     private static final By SignIn = By.xpath("//button[@id='submit-button']");
     private static final By UserId = By.id("idcta-username");
-    private static final By SignOut = By.xpath("//span[text()='Sign out']");
-    private static final By SignOutMsg = By.xpath("//*[@id='app-container']/div/div/div/h1");
     private static final By InvalidEmail = By.xpath("//p[@class='form-message__text']");
     private static final By InvalidPassword = By.xpath("//div[@id='form-message-password']");
 

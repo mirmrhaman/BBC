@@ -3,8 +3,6 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_object.Search;
 
@@ -12,7 +10,6 @@ import java.util.List;
 import java.util.Map;
 
 public class SearchSteps {
-    private static Logger LOGGER = LogManager.getLogger(SearchSteps.class);
     WebDriver driver =Hooks.driver;
 
     @When("^user enter text on search$")

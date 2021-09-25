@@ -23,7 +23,6 @@ public class BBCLogo extends NavigationBar {
     private static final By Future = By.xpath("//div[@id='orb-nav-links']//a[normalize-space()='Future']");
     private static final By FutureImage = By.xpath("//a[@class='branding branding--future branding--large']");
 
-
     public BBCLogo clickOnBBCLogo() {
         ActOn.element(driver,BBCLogo).click();
         LOGGER.info("User clicked on BBC Logo");

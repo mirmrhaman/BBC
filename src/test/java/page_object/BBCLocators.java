@@ -14,6 +14,4 @@ public class BBCLocators extends NavigationBar {
 
     private final By SignInButton = By.xpath("//button[@id='submit-button']");
 
-
-
 }

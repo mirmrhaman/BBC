@@ -28,7 +28,6 @@ public class LanguageSelectionSteps {
             .navigateToHindiInLanguase();
     }
 
-
     @Then("^user on Hindi service page$")
     public void validateUserOnHindiServicePage () {
     new Language(driver)

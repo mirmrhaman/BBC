@@ -1,10 +1,10 @@
 2021-09-24 22:05:04.819 [main][4445] INFO  step_definitions.Hooks - Launch Chrome Browser
 2021-09-24 22:05:08.344 [main][7970] INFO  step_definitions.Hooks - Browser is successfully initiated with URL: https://www.bbc.com/
-2021-09-24 22:05:09.960 [main][9586] INFO  page_object.FollowFaceBook - User clicked on travel button
-2021-09-24 22:05:10.077 [main][9703] INFO  page_object.FollowFaceBook - User is on Travel Page
-2021-09-24 22:05:10.227 [main][9853] INFO  page_object.FollowFaceBook - User navigate to more options
-2021-09-24 22:05:10.426 [main][10052] INFO  page_object.FollowFaceBook - user navigate to follow by Face Book
-2021-09-24 22:05:13.008 [main][12634] INFO  step_definitions.FollowOnFaceBook - user is on Face book page
+2021-09-24 22:05:09.960 [main][9586] INFO  page_object.FollowOnFaceBook - User clicked on travel button
+2021-09-24 22:05:10.077 [main][9703] INFO  page_object.FollowOnFaceBook - User is on Travel Page
+2021-09-24 22:05:10.227 [main][9853] INFO  page_object.FollowOnFaceBook - User navigate to more options
+2021-09-24 22:05:10.426 [main][10052] INFO  page_object.FollowOnFaceBook - user navigate to follow by Face Book
+2021-09-24 22:05:13.008 [main][12634] INFO  step_definitions.FollowOnFaceBookSteps - user is on Face book page
 2021-09-24 22:05:13.843 [main][13469] INFO  step_definitions.Hooks - Close Chrome Browser
 2021-09-24 22:05:15.192 [main][14818] INFO  step_definitions.Hooks - Launch Chrome Browser
 2021-09-24 22:05:18.513 [main][18139] INFO  step_definitions.Hooks - Browser is successfully initiated with URL: https://www.bbc.com/

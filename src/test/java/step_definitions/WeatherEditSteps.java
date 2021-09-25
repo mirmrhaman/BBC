@@ -4,15 +4,12 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_object.Weather;
 import java.util.List;
 import java.util.Map;
 
 public class WeatherEditSteps {
-    private static Logger LOGGER = LogManager.getLogger(WeatherEditSteps.class);
     WebDriver driver = Hooks.driver;
 
     @And("^user navigate to edit in weather$")

@@ -2,13 +2,10 @@ package step_definitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import page_object.Sound;
 
 public class SoundsSteps {
-    private static Logger LOGGER = LogManager.getLogger(SoundsSteps.class);
     WebDriver driver = Hooks.driver;
 
     @When("^user navigate to sounds$")
