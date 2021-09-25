@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>BBC</td>
+        <td>1</td>
+      <td>24 Sep 2021, 22:09</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.clickOnFaceBookIcon()</td>
+              <td>1</td>
+              <td class="duration" data-value="198789200">0.198</td>
+              <td class="duration" data-value="198789200">0.198</td>
+              <td class="duration" data-value="198789200">0.198</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.clickOnMore()</td>
+              <td>1</td>
+              <td class="duration" data-value="150276900">0.150</td>
+              <td class="duration" data-value="150276900">0.150</td>
+              <td class="duration" data-value="150276900">0.150</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.userClickedOnTravel()</td>
+              <td>1</td>
+              <td class="duration" data-value="1593303900">1.593</td>
+              <td class="duration" data-value="1593303900">1.593</td>
+              <td class="duration" data-value="1593303900">1.593</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.userInNewWindow()</td>
+              <td>1</td>
+              <td class="duration" data-value="83511700">0.083</td>
+              <td class="duration" data-value="83511700">0.083</td>
+              <td class="duration" data-value="83511700">0.083</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.validateUserIsInTravelPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="117132500">0.117</td>
+              <td class="duration" data-value="117132500">0.117</td>
+              <td class="duration" data-value="117132500">0.117</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.FollowOnFaceBook.validateUserOnFaceBookPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2598534300">2.598</td>
+              <td class="duration" data-value="2598534300">2.598</td>
+              <td class="duration" data-value="2598534300">2.598</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.clickOnBBCLogo()</td>
+              <td>4</td>
+              <td class="duration" data-value="1038819825">1.038</td>
+              <td class="duration" data-value="1038819825">1.262</td>
+              <td class="duration" data-value="4155279300">4.155</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromFuturePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="88763100">0.088</td>
+              <td class="duration" data-value="88763100">0.088</td>
+              <td class="duration" data-value="88763100">0.088</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromNewsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="111280300">0.111</td>
+              <td class="duration" data-value="111280300">0.111</td>
+              <td class="duration" data-value="111280300">0.111</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromSportPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="150149800">0.150</td>
+              <td class="duration" data-value="150149800">0.150</td>
+              <td class="duration" data-value="150149800">0.150</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromTravelPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="166135300">0.166</td>
+              <td class="duration" data-value="166135300">0.166</td>
+              <td class="duration" data-value="166135300">0.166</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.navigateToFuturePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2185345700">2.185</td>
+              <td class="duration" data-value="2185345700">2.185</td>
+              <td class="duration" data-value="2185345700">2.185</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.navigateToNewsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="1125375400">1.125</td>
+              <td class="duration" data-value="1125375400">1.125</td>
+              <td class="duration" data-value="1125375400">1.125</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.navigateToSportPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="1393331500">1.393</td>
+              <td class="duration" data-value="1393331500">1.393</td>
+              <td class="duration" data-value="1393331500">1.393</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.navigateToTravelPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="2541794600">2.541</td>
+              <td class="duration" data-value="2541794600">2.541</td>
+              <td class="duration" data-value="2541794600">2.541</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.validateUserOnFuturePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="80722200">0.080</td>
+              <td class="duration" data-value="80722200">0.080</td>
+              <td class="duration" data-value="80722200">0.080</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.validateUserOnNewsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="63506200">0.063</td>
+              <td class="duration" data-value="63506200">0.063</td>
+              <td class="duration" data-value="63506200">0.063</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.validateUserOnSportPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="106246300">0.106</td>
+              <td class="duration" data-value="106246300">0.106</td>
+              <td class="duration" data-value="106246300">0.106</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.HomePageByBBCLogo.validateUserOnTravelPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="54936500">0.054</td>
+              <td class="duration" data-value="54936500">0.054</td>
+              <td class="duration" data-value="54936500">0.054</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.closeBrowser()</td>
+              <td>19</td>
+              <td class="duration" data-value="753887121">0.753</td>
+              <td class="duration" data-value="753887121">0.849</td>
+              <td class="duration" data-value="14323855300">14.323</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.Hooks.openBrowser()</td>
+              <td>19</td>
+              <td class="duration" data-value="4806004984">4.806</td>
+              <td class="duration" data-value="4806004984">6.755</td>
+              <td class="duration" data-value="91314094700">1:31.314</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LanguageSelectionSteps.navigateToBanglaInLanguase()</td>
+              <td>1</td>
+              <td class="duration" data-value="1489089900">1.489</td>
+              <td class="duration" data-value="1489089900">1.489</td>
+              <td class="duration" data-value="1489089900">1.489</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LanguageSelectionSteps.navigateToHindiInLanguase()</td>
+              <td>1</td>
+              <td class="duration" data-value="1518891700">1.518</td>
+              <td class="duration" data-value="1518891700">1.518</td>
+              <td class="duration" data-value="1518891700">1.518</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LanguageSelectionSteps.validateUserOnBanglaServicePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="62355200">0.062</td>
+              <td class="duration" data-value="62355200">0.062</td>
+              <td class="duration" data-value="62355200">0.062</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.LanguageSelectionSteps.validateUserOnHindiServicePage()</td>
+              <td>1</td>
+              <td class="duration" data-value="75755500">0.075</td>
+              <td class="duration" data-value="75755500">0.075</td>
+              <td class="duration" data-value="75755500">0.075</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.OnAirPlaySteps.clickOnAir()</td>
+              <td>1</td>
+              <td class="duration" data-value="20971682900">20.971</td>
+              <td class="duration" data-value="20971682900">20.971</td>
+              <td class="duration" data-value="20971682900">20.971</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.OnAirPlaySteps.navigateToOnAir()</td>
+              <td>1</td>
+              <td class="duration" data-value="1859555300">1.859</td>
+              <td class="duration" data-value="1859555300">1.859</td>
+              <td class="duration" data-value="1859555300">1.859</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.OnAirPlaySteps.validateUserPlayOnLiveProgramme()</td>
+              <td>1</td>
+              <td class="duration" data-value="82110300">0.082</td>
+              <td class="duration" data-value="82110300">0.082</td>
+              <td class="duration" data-value="82110300">0.082</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SearchSteps.enterTextInSearchOption(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="252975000">0.252</td>
+              <td class="duration" data-value="252975000">0.252</td>
+              <td class="duration" data-value="252975000">0.252</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SearchSteps.userClickOnSearchButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="2054602600">2.054</td>
+              <td class="duration" data-value="2054602600">2.054</td>
+              <td class="duration" data-value="2054602600">2.054</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SearchSteps.validateSearchResultPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="70779400">0.070</td>
+              <td class="duration" data-value="70779400">0.070</td>
+              <td class="duration" data-value="70779400">0.070</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.clickOnSignInButton()</td>
+              <td>6</td>
+              <td class="duration" data-value="1723781750">1.723</td>
+              <td class="duration" data-value="1723781750">2.329</td>
+              <td class="duration" data-value="10342690500">10.342</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)</td>
+              <td>6</td>
+              <td class="duration" data-value="2515097966">2.515</td>
+              <td class="duration" data-value="2515097966">3.045</td>
+              <td class="duration" data-value="15090587800">15.090</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.navigateToHomePage()</td>
+              <td>20</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="duration" data-value="0">0.000</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.navigateToSignInPage()</td>
+              <td>7</td>
+              <td class="duration" data-value="151786342">0.151</td>
+              <td class="duration" data-value="151786342">0.243</td>
+              <td class="duration" data-value="1062504400">1.062</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.userClickOnSignInButtonEnteringCredentials(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="3857530400">3.857</td>
+              <td class="duration" data-value="3857530400">3.857</td>
+              <td class="duration" data-value="3857530400">3.857</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.validateUserIsFailedToSignInEmail()</td>
+              <td>1</td>
+              <td class="duration" data-value="84143200">0.084</td>
+              <td class="duration" data-value="84143200">0.084</td>
+              <td class="duration" data-value="84143200">0.084</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.validateUserIsFailedToSignInPassword()</td>
+              <td>1</td>
+              <td class="duration" data-value="58253600">0.058</td>
+              <td class="duration" data-value="58253600">0.058</td>
+              <td class="duration" data-value="58253600">0.058</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignInSteps.validateUserIsSignInSuccessfully()</td>
+              <td>4</td>
+              <td class="duration" data-value="104456075">0.104</td>
+              <td class="duration" data-value="104456075">0.141</td>
+              <td class="duration" data-value="417824300">0.417</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignOutSteps.clickOnProfileName()</td>
+              <td>1</td>
+              <td class="duration" data-value="125811400">0.125</td>
+              <td class="duration" data-value="125811400">0.125</td>
+              <td class="duration" data-value="125811400">0.125</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignOutSteps.clickOnSignOut()</td>
+              <td>1</td>
+              <td class="duration" data-value="1565550900">1.565</td>
+              <td class="duration" data-value="1565550900">1.565</td>
+              <td class="duration" data-value="1565550900">1.565</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignOutSteps.userOnSignOutPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="1577234900">1.577</td>
+              <td class="duration" data-value="1577234900">1.577</td>
+              <td class="duration" data-value="1577234900">1.577</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignOutSteps.validateUserIsSignInSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="99700100">0.099</td>
+              <td class="duration" data-value="99700100">0.099</td>
+              <td class="duration" data-value="99700100">0.099</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SignOutSteps.validateUserIsSignOutSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="56831400">0.056</td>
+              <td class="duration" data-value="56831400">0.056</td>
+              <td class="duration" data-value="56831400">0.056</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SoundsSteps.navigateToSoundButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="1929733800">1.929</td>
+              <td class="duration" data-value="1929733800">1.929</td>
+              <td class="duration" data-value="1929733800">1.929</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SoundsSteps.playRadioRelax()</td>
+              <td>1</td>
+              <td class="duration" data-value="20111244600">20.111</td>
+              <td class="duration" data-value="20111244600">20.111</td>
+              <td class="duration" data-value="20111244600">20.111</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SoundsSteps.validateRadioRelaxPlayedSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="92937900">0.092</td>
+              <td class="duration" data-value="92937900">0.092</td>
+              <td class="duration" data-value="92937900">0.092</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.SoundsSteps.validateUserEnterInSoundPageSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="72980100">0.072</td>
+              <td class="duration" data-value="72980100">0.072</td>
+              <td class="duration" data-value="72980100">0.072</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.TvSteps.navigateToFeaturedVideo()</td>
+              <td>1</td>
+              <td class="duration" data-value="177772800">0.177</td>
+              <td class="duration" data-value="177772800">0.177</td>
+              <td class="duration" data-value="177772800">0.177</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.TvSteps.playFeatureVideo()</td>
+              <td>1</td>
+              <td class="duration" data-value="50103855100">50.103</td>
+              <td class="duration" data-value="50103855100">50.103</td>
+              <td class="duration" data-value="50103855100">50.103</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.TvSteps.validateUserPlayedFeatureVideoSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="110642800">0.110</td>
+              <td class="duration" data-value="110642800">0.110</td>
+              <td class="duration" data-value="110642800">0.110</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.WeatherEditSteps.clickOnNewYork()</td>
+              <td>1</td>
+              <td class="duration" data-value="3126623600">3.126</td>
+              <td class="duration" data-value="3126623600">3.126</td>
+              <td class="duration" data-value="3126623600">3.126</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.WeatherEditSteps.enterCityInEditOption(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="407696200">0.407</td>
+              <td class="duration" data-value="407696200">0.407</td>
+              <td class="duration" data-value="407696200">0.407</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.WeatherEditSteps.navigateToEditWeather()</td>
+              <td>1</td>
+              <td class="duration" data-value="166711700">0.166</td>
+              <td class="duration" data-value="166711700">0.166</td>
+              <td class="duration" data-value="166711700">0.166</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.WeatherEditSteps.validateUserFindNamesOfLocations()</td>
+              <td>1</td>
+              <td class="duration" data-value="714532600">0.714</td>
+              <td class="duration" data-value="714532600">0.714</td>
+              <td class="duration" data-value="714532600">0.714</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">step_definitions.WeatherEditSteps.validateUserSelectedWeatherSuccessfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="98339800">0.098</td>
+              <td class="duration" data-value="98339800">0.098</td>
+              <td class="duration" data-value="98339800">0.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>56</td>
+            <td>133</td>
+            <td class="duration">1.973</td>
+            <td class="duration">1:31.314</td>
+            <td class="duration">4:22.491</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

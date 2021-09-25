@@ -1,0 +1,16 @@
+2021-09-23 10:47:27.544 [main][3116] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-23 10:47:29.585 [main][5157] INFO  step_definitions.Hooks - User is on home page
+2021-09-23 10:47:29.620 [main][5192] DEBUG page_object.SignIn - Click on the Sign in on Home Page
+2021-09-23 10:47:32.327 [main][7899] DEBUG page_object.SignIn - User entered Email Id is: mirmrhaman@gmail.com
+2021-09-23 10:47:32.562 [main][8134] DEBUG page_object.SignIn - User entered Password is: m12345678
+2021-09-23 10:47:34.160 [main][9732] INFO  page_object.SignIn - user has clicked on sign in button
+2021-09-23 10:47:49.276 [main][24848] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //input[@id='user-identifier-input'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='user-identifier-input']"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PG9U9RD9', ip: '192.168.1.81', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\mrham\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fb552c8a0b2ddb8501df3a4332d48a1
+*** Element info: {Using=xpath, value=//input[@id='user-identifier-input']}
+2021-09-23 10:47:50.066 [main][25638] INFO  step_definitions.Hooks - Close Chrome Browser

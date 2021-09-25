@@ -1,0 +1,2196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-25T02:05:01.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6755835800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Share BBC link by email",
+        "description": "",
+        "id": "share-link-functionality;share-bbc-link-by-email",
+        "after": [
+          {
+            "result": {
+              "duration": 734209200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1593303900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to travel",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.userClickedOnTravel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117132500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is in travel page",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.validateUserIsInTravelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150276900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigate to more",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.clickOnMore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198789200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on faceBook icon",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.clickOnFaceBookIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83511700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is in new window",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.userInNewWindow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2598534300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigated to Face Book page",
+            "match": {
+              "location": "step_definitions.FollowOnFaceBook.validateUserOnFaceBookPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@follow"
+          }
+        ]
+      }
+    ],
+    "name": "Share link functionality",
+    "description": "",
+    "id": "share-link-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/followOnFaceBook.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:13.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4653778600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check BBC Logo returns to home page from news page",
+        "description": "",
+        "id": "bbc-logo-functionality;check-bbc-logo-returns-to-home-page-from-news-page",
+        "after": [
+          {
+            "result": {
+              "duration": 704620100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1125375400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigate to news page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.navigateToNewsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63506200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on news page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.validateUserOnNewsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 836224700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on BBC Logo",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111280300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on BBC Logo from NEWS page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromNewsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@news"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:21.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4752083800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Check BBC Logo returns to home page from Sport page",
+        "description": "",
+        "id": "bbc-logo-functionality;check-bbc-logo-returns-to-home-page-from-sport-page",
+        "after": [
+          {
+            "result": {
+              "duration": 730537500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1393331500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user navigate to Sport page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.navigateToSportPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106246300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user on sport page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.validateUserOnSportPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 970445700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on BBC Logo",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150149800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on BBC Logo from SPORT page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromSportPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sport"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:29.474Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4880902200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check BBC Logo returns to home page from Travel page",
+        "description": "",
+        "id": "bbc-logo-functionality;check-bbc-logo-returns-to-home-page-from-travel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 742137100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2541794600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user navigate to Travel page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.navigateToTravelPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54936500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user on travel page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.validateUserOnTravelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1262200900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on BBC Logo",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166135300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click on BBC Logo from TRAVEL page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromTravelPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@travel"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:39.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5275091400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Check BBC Logo returns to home page from Future page",
+        "description": "",
+        "id": "bbc-logo-functionality;check-bbc-logo-returns-to-home-page-from-future-page",
+        "after": [
+          {
+            "result": {
+              "duration": 755311000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2185345700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user navigate to Future page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.navigateToFuturePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80722200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user on future page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.validateUserOnFuturePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1086408000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on BBC Logo",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88763100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user click on BBC Logo from Future page",
+            "match": {
+              "location": "step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromFuturePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@future"
+          }
+        ]
+      }
+    ],
+    "name": "BBC logo functionality",
+    "description": "",
+    "id": "bbc-logo-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/homePageByBBCLogo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:48.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4726874700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check BBC page directed to Bengali",
+        "description": "",
+        "id": "language-conversion-service-functionality;check-bbc-page-directed-to-bengali",
+        "after": [
+          {
+            "result": {
+              "duration": 797500000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1489089900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on Bangla on language",
+            "match": {
+              "location": "step_definitions.LanguageSelectionSteps.navigateToBanglaInLanguase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62355200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user on Bengali service page",
+            "match": {
+              "location": "step_definitions.LanguageSelectionSteps.validateUserOnBanglaServicePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bengaliLanguage"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:05:55.689Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4758134100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check BBC page directed to Bengali",
+        "description": "",
+        "id": "language-conversion-service-functionality;check-bbc-page-directed-to-bengali",
+        "after": [
+          {
+            "result": {
+              "duration": 805992300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1518891700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on Hindi on language",
+            "match": {
+              "location": "step_definitions.LanguageSelectionSteps.navigateToHindiInLanguase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75755500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user on Hindi service page",
+            "match": {
+              "location": "step_definitions.LanguageSelectionSteps.validateUserOnHindiServicePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hindiLanguage"
+          }
+        ]
+      }
+    ],
+    "name": "Language conversion service functionality",
+    "description": "",
+    "id": "language-conversion-service-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/language.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-25T02:06:02.856Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4478071600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "user play on air features",
+        "description": "",
+        "id": "on-air-functionality;user-play-on-air-features",
+        "after": [
+          {
+            "result": {
+              "duration": 716770200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1859555300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to on air",
+            "match": {
+              "location": "step_definitions.OnAirPlaySteps.navigateToOnAir()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20971682900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user play On Air features",
+            "match": {
+              "location": "step_definitions.OnAirPlaySteps.clickOnAir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82110300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open and play on air programme",
+            "match": {
+              "location": "step_definitions.OnAirPlaySteps.validateUserPlayOnLiveProgramme()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onAir"
+          }
+        ]
+      }
+    ],
+    "name": "On Air Functionality",
+    "description": "",
+    "id": "on-air-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/onAirPlay.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-25T02:06:30.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4737007800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check search is successful with valid credentials",
+        "description": "",
+        "id": "search-functionalities;check-search-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 706457900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252975000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter text on search",
+            "match": {
+              "location": "step_definitions.SearchSteps.enterTextInSearchOption(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SearchText"
+                ]
+              },
+              {
+                "cells": [
+                  "education"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2054602600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on search button",
+            "match": {
+              "location": "step_definitions.SearchSteps.userClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70779400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is navigated to result is education",
+            "match": {
+              "location": "step_definitions.SearchSteps.validateSearchResultPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionalities",
+    "description": "",
+    "id": "search-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144928400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:06:38.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4553329000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Check Sign in is successful with valid credentials",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 728891000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2361651600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters userEmail \"mirmrhaman@gmail.com\" and password \"m12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mirmrhaman@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "m12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1555719100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113179800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to user home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsSignInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive_test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153928900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:06:48.260Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4446543600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check Sign in is successful with valid credentials",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 730433500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2286892100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters userEmail \"mirmrhaman@gmail.com\" and password \"m12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mirmrhaman@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "m12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1929535700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141926500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is navigated to user home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsSignInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147493400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:06:57.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4735930000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Check Sign in is successful with valid credentials",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-successful-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 768352600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3045552900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters userEmail \"jimyraj@gmail.com\" and password \"Jimy@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jimyraj@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "Jimy@123",
+                  "offset": 56
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1494506800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81867900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is navigated to user home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsSignInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113163700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:07:08.224Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4591853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check Sign in is not successful with invalid credentials",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-not-successful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 707611300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2772846600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters userEmail \"jimyraj@gmail.com\" and password \"Jimy@000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jimyraj@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "Jimy@000",
+                  "offset": 56
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 775746200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58253600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is failed to login with wrong password",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsFailedToSignInPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative_test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243156900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:07:17.243Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4381937200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Check Sign in is not successful with invalid credentials",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-not-successful-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 741507800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2419761900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters userEmail \"jimyraj@gmail.came\" and password \"Jimy@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jimyraj@gmail.came",
+                  "offset": 23
+                },
+                {
+                  "val": "Jimy@123",
+                  "offset": 57
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2329601900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84143200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is failed to login with wrong Email",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsFailedToSignInEmail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negative_test"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 128853000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:07:27.444Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4434625300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Check Sign in is successful with valid credentials using data table",
+        "description": "",
+        "id": "test-sign-in-functionalities;check-sign-in-is-successful-with-valid-credentials-using-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 783648700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3857530400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user click on Sign in button entering credentials",
+            "match": {
+              "location": "step_definitions.SignInSteps.userClickOnSignInButtonEnteringCredentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "emailId",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mirmrhaman@gmail.com",
+                  "m12345678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80850100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is navigated to user home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.validateUserIsSignInSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataDriven_test"
+          }
+        ]
+      }
+    ],
+    "name": "Test Sign in functionalities",
+    "description": "",
+    "id": "test-sign-in-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:07:36.729Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4675459400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check sign in followed by sign out successful with valid credentials",
+        "description": "",
+        "id": "test-sign-out-functionalities;check-sign-in-followed-by-sign-out-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 849079900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130980100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigate to Sign in page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToSignInPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203882700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters userEmail \"mirmrhaman@gmail.com\" and password \"m12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mirmrhaman@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "m12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2257580800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on signIn button",
+            "match": {
+              "location": "step_definitions.SignInSteps.clickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99700100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to profile home page",
+            "match": {
+              "location": "step_definitions.SignOutSteps.validateUserIsSignInSuccessfully()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125811400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on profile name",
+            "match": {
+              "location": "step_definitions.SignOutSteps.clickOnProfileName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1577234900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user on sign out page",
+            "match": {
+              "location": "step_definitions.SignOutSteps.userOnSignOutPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1565550900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on sign out",
+            "match": {
+              "location": "step_definitions.SignOutSteps.clickOnSignOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56831400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user get a confirmation sign out message",
+            "match": {
+              "location": "step_definitions.SignOutSteps.validateUserIsSignOutSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signOut"
+          }
+        ]
+      }
+    ],
+    "name": "Test Sign out functionalities",
+    "description": "",
+    "id": "test-sign-out-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signOut.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:07:50.271Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4582877300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "user play a radio",
+        "description": "",
+        "id": "sounds-functionality;user-play-a-radio",
+        "after": [
+          {
+            "result": {
+              "duration": 753590700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1929733800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigate to sounds",
+            "match": {
+              "location": "step_definitions.SoundsSteps.navigateToSoundButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72980100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the sounds page",
+            "match": {
+              "location": "step_definitions.SoundsSteps.validateUserEnterInSoundPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20111244600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigate and play Radio Relax",
+            "match": {
+              "location": "step_definitions.SoundsSteps.playRadioRelax()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92937900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Radio relax played",
+            "match": {
+              "location": "step_definitions.SoundsSteps.validateRadioRelaxPlayedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sound"
+          }
+        ]
+      }
+    ],
+    "name": "Sounds functionality",
+    "description": "",
+    "id": "sounds-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/sound.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:08:17.823Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4928262600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Select and play a video from Featured video",
+        "description": "",
+        "id": "tv-functionality;select-and-play-a-video-from-featured-video",
+        "after": [
+          {
+            "result": {
+              "duration": 784447700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177772800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigate to featured video",
+            "match": {
+              "location": "step_definitions.TvSteps.navigateToFeaturedVideo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50103855100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user play feature video and wait a moment",
+            "match": {
+              "location": "step_definitions.TvSteps.playFeatureVideo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110642800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User played featured video from home page",
+            "match": {
+              "location": "step_definitions.TvSteps.validateUserPlayedFeatureVideoSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tv"
+          }
+        ]
+      }
+    ],
+    "name": "TV functionality",
+    "description": "",
+    "id": "tv-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/tv.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a user is on the Home page",
+            "match": {
+              "location": "step_definitions.SignInSteps.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-25T02:09:13.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4965497000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "user can edit weather broadcast",
+        "description": "",
+        "id": "weather-functionality;user-can-edit-weather-broadcast",
+        "after": [
+          {
+            "result": {
+              "duration": 782756800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 166711700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user navigate to edit in weather",
+            "match": {
+              "location": "step_definitions.WeatherEditSteps.navigateToEditWeather()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407696200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter location and click",
+            "match": {
+              "location": "step_definitions.WeatherEditSteps.enterCityInEditOption(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SearchCity"
+                ]
+              },
+              {
+                "cells": [
+                  "New York"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714532600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user find result location options",
+            "match": {
+              "location": "step_definitions.WeatherEditSteps.validateUserFindNamesOfLocations()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3126623600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on New York, United States",
+            "match": {
+              "location": "step_definitions.WeatherEditSteps.clickOnNewYork()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98339800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on New York weather",
+            "match": {
+              "location": "step_definitions.WeatherEditSteps.validateUserSelectedWeatherSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@weather"
+          }
+        ]
+      }
+    ],
+    "name": "Weather functionality",
+    "description": "",
+    "id": "weather-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/weather.feature",
+    "tags": []
+  }
+]
