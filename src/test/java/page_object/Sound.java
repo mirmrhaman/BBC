@@ -16,7 +16,8 @@ public class Sound  extends NavigationBar {
     private static final By Sound = By.xpath("//div[@class='orb-footer-primary-links']//a[normalize-space()='Sounds']");
     private static final By SoundImage = By.xpath("//span[@class='sc-c-sounds-nav__logo-link-title']");
     private static final By RadioRelax = By.xpath("//div[normalize-space()='Radio 1 relax']");
-    private static final By RadioRelaxImage = By.xpath("//span[@aria-label='Radio 1 relax']");
+    //private static final By RadioRelaxImage = By.xpath("//span[@aria-label='Radio 1 relax']");
+    private static final By RadioRelaxImage = By.xpath("//div/span[normalize-space()='RADIO 1 RELAX']");
 
     public Sound navigateToSoundButton() {
         ActOn.element(driver, Sound).click();

@@ -1,0 +1,7 @@
+2021-09-25 01:20:31.318 [main][4154] INFO  step_definitions.Hooks - Launch Chrome Browser
+2021-09-25 01:20:34.038 [main][6874] INFO  step_definitions.Hooks - Browser is successfully initiated with URL: https://www.bbc.com/
+2021-09-25 01:20:35.541 [main][8377] INFO  page_object.Sound - user clicked on sound button on home page
+2021-09-25 01:20:35.593 [main][8429] INFO  page_object.Sound - User is on sounds page
+2021-09-25 01:20:55.689 [main][28525] INFO  page_object.Sound - User played Radio Relax 1 and wait to listen for a moment
+2021-09-25 01:20:55.747 [main][28583] INFO  page_object.Sound - User played Radio Relax 1 successfully
+2021-09-25 01:20:56.541 [main][29377] INFO  step_definitions.Hooks - Close Chrome Browser
