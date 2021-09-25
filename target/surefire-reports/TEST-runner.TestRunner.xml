@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="269.617" tests="19" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="270.647" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="webdriver.chrome.driver" value="C:\Users\mrham\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\AutomationProject\BBC\target\test-classes;C:\AutomationProject\BBC\target\classes;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mrham\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mrham\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mrham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mrham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mrham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mrham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mrham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mrham\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mrham\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\mrham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\mrham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mrham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mrham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mrham\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mrham\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mrham\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\mrham\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mrham\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\mrham\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\mrham\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mrham\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\mrham\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\mrham\.m2\repository\net\masterthought\cucumber-reporting\5.5.4\cucumber-reporting-5.5.4.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\mrham\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\mrham\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\mrham\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\mrham\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\mrham\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\mrham\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\mrham\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\mrham\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.class.path" value="C:\AutomationProject\BBC\target\test-classes;C:\AutomationProject\BBC\target\classes;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mrham\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mrham\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mrham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mrham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mrham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mrham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mrham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mrham\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mrham\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\mrham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\mrham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mrham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mrham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mrham\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mrham\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mrham\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\mrham\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mrham\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\mrham\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\mrham\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mrham\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\mrham\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\mrham\.m2\repository\net\masterthought\cucumber-reporting\5.5.4\cucumber-reporting-5.5.4.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\mrham\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\mrham\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\mrham\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\mrham\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\mrham\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\mrham\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\mrham\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\mrham\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\mrham\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mrham\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mrham\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,9 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
-    <property name="sun.java.command" value="C:\Users\mrham\AppData\Local\Temp\surefire7604972411789773563\surefirebooter9316493960579554119.jar C:\Users\mrham\AppData\Local\Temp\surefire7604972411789773563 2021-09-25T14-42-08_165-jvmRun1 surefire11050212948728632089tmp surefire_05976978019886229204tmp"/>
+    <property name="sun.java.command" value="C:\Users\mrham\AppData\Local\Temp\surefire7536950703327411747\surefirebooter13723790361210438065.jar C:\Users\mrham\AppData\Local\Temp\surefire7536950703327411747 2021-09-25T16-45-14_266-jvmRun1 surefire17946264518484368601tmp surefire_06428114093663121287tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\AutomationProject\BBC\target\test-classes;C:\AutomationProject\BBC\target\classes;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mrham\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mrham\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mrham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mrham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mrham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mrham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mrham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mrham\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mrham\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\mrham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\mrham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mrham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mrham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mrham\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mrham\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mrham\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\mrham\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mrham\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\mrham\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\mrham\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mrham\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\mrham\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\mrham\.m2\repository\net\masterthought\cucumber-reporting\5.5.4\cucumber-reporting-5.5.4.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\mrham\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\mrham\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\mrham\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\mrham\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\mrham\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\mrham\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\mrham\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\mrham\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\AutomationProject\BBC\target\test-classes;C:\AutomationProject\BBC\target\classes;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mrham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mrham\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mrham\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mrham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mrham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mrham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mrham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mrham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mrham\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mrham\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\mrham\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\mrham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mrham\.m2\repository\io\cucumber\cucumber-junit\6.11.0\cucumber-junit-6.11.0.jar;C:\Users\mrham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mrham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mrham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mrham\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mrham\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mrham\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\mrham\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\mrham\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\mrham\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\mrham\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\mrham\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\mrham\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\mrham\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\mrham\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\mrham\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\mrham\.m2\repository\net\masterthought\cucumber-reporting\5.5.4\cucumber-reporting-5.5.4.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\Users\mrham\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\Users\mrham\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\mrham\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\mrham\.m2\repository\joda-time\joda-time\2.10.10\joda-time-2.10.10.jar;C:\Users\mrham\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\mrham\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\Users\mrham\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\mrham\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\mrham\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\mrham\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\mrham\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mrham\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\mrham"/>
     <property name="user.language" value="en"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mrham\AppData\Local\Temp\surefire7604972411789773563\surefirebooter9316493960579554119.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mrham\AppData\Local\Temp\surefire7536950703327411747\surefirebooter13723790361210438065.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Share BBC link by email" classname="Share link functionality" time="16.693">
+  <testcase name="Share BBC link by email" classname="Share link functionality" time="13.114">
     <system-out><![CDATA[
 @follow
 Scenario: Share BBC link by email       &amp#27;[90m# src/test/resources/features/followOnFaceBook.feature:3&amp#27;[0m
@@ -76,15 +76,15 @@ Scenario: Share BBC link by email       &amp#27;[90m# src/test/resources/feature
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 4850
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 10054
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:42:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:45:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC Logo returns to home page from news page" classname="BBC logo functionality" time="7.635">
+  <testcase name="Check BBC Logo returns to home page from news page" classname="BBC logo functionality" time="7.924">
     <system-out><![CDATA[
 @news
 Scenario: Check BBC Logo returns to home page from news page &amp#27;[90m# src/test/resources/features/homePageByBBCLogo.feature:7&amp#27;[0m
@@ -94,15 +94,15 @@ Scenario: Check BBC Logo returns to home page from news page &amp#27;[90m# src/t
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on BBC Logo&amp#27;[0m                                 &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogo()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on BBC Logo from NEWS page&amp#27;[0m                 &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromNewsPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 19047
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 7092
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:42:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:45:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC Logo returns to home page from Sport page" classname="BBC logo functionality" time="8.216">
+  <testcase name="Check BBC Logo returns to home page from Sport page" classname="BBC logo functionality" time="11.045">
     <system-out><![CDATA[
 @sport
 Scenario: Check BBC Logo returns to home page from Sport page &amp#27;[90m# src/test/resources/features/homePageByBBCLogo.feature:14&amp#27;[0m
@@ -112,15 +112,15 @@ Scenario: Check BBC Logo returns to home page from Sport page &amp#27;[90m# src/
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on BBC Logo&amp#27;[0m                                  &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogo()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on BBC Logo from SPORT page&amp#27;[0m                 &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromSportPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 40719
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 2342
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:42:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:45:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC Logo returns to home page from Travel page" classname="BBC logo functionality" time="8.531">
+  <testcase name="Check BBC Logo returns to home page from Travel page" classname="BBC logo functionality" time="8.752">
     <system-out><![CDATA[
 @travel
 Scenario: Check BBC Logo returns to home page from Travel page &amp#27;[90m# src/test/resources/features/homePageByBBCLogo.feature:21&amp#27;[0m
@@ -130,15 +130,15 @@ Scenario: Check BBC Logo returns to home page from Travel page &amp#27;[90m# src
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on BBC Logo&amp#27;[0m                                   &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogo()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on BBC Logo from TRAVEL page&amp#27;[0m                 &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromTravelPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 9148
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 38090
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:42:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:45:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC Logo returns to home page from Future page" classname="BBC logo functionality" time="8.245">
+  <testcase name="Check BBC Logo returns to home page from Future page" classname="BBC logo functionality" time="8.269">
     <system-out><![CDATA[
 @future
 Scenario: Check BBC Logo returns to home page from Future page &amp#27;[90m# src/test/resources/features/homePageByBBCLogo.feature:28&amp#27;[0m
@@ -148,15 +148,15 @@ Scenario: Check BBC Logo returns to home page from Future page &amp#27;[90m# src
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on BBC Logo&amp#27;[0m                                   &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogo()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on BBC Logo from Future page&amp#27;[0m                 &amp#27;[90m# step_definitions.HomePageByBBCLogo.clickOnBBCLogoFromFuturePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 9535
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 12473
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:42:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:45:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC page directed to Bengali #1" classname="Language conversion service functionality" time="7.123">
+  <testcase name="Check BBC page directed to Bengali #1" classname="Language conversion service functionality" time="7.12">
     <system-out><![CDATA[
 @bengaliLanguage
 Scenario: Check BBC page directed to Bengali &amp#27;[90m# src/test/resources/features/language.feature:7&amp#27;[0m
@@ -164,15 +164,15 @@ Scenario: Check BBC page directed to Bengali &amp#27;[90m# src/test/resources/fe
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on Bangla on language&amp#27;[0m      &amp#27;[90m# step_definitions.LanguageSelectionSteps.navigateToBanglaInLanguase()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser on Bengali service page&amp#27;[0m          &amp#27;[90m# step_definitions.LanguageSelectionSteps.validateUserOnBanglaServicePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 41918
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 8654
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:43:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:46:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check BBC page directed to Bengali #2" classname="Language conversion service functionality" time="7.139">
+  <testcase name="Check BBC page directed to Bengali #2" classname="Language conversion service functionality" time="7.04">
     <system-out><![CDATA[
 @hindiLanguage
 Scenario: Check BBC page directed to Bengali &amp#27;[90m# src/test/resources/features/language.feature:12&amp#27;[0m
@@ -180,15 +180,15 @@ Scenario: Check BBC page directed to Bengali &amp#27;[90m# src/test/resources/fe
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on Hindi on language&amp#27;[0m       &amp#27;[90m# step_definitions.LanguageSelectionSteps.navigateToHindiInLanguase()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser on Hindi service page&amp#27;[0m            &amp#27;[90m# step_definitions.LanguageSelectionSteps.validateUserOnHindiServicePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 24510
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 43091
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:43:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:46:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user play on air features" classname="On Air Functionality" time="29.148">
+  <testcase name="user play on air features" classname="On Air Functionality" time="29.602">
     <system-out><![CDATA[
 @onAir
 Scenario: user play on air features   &amp#27;[90m# src/test/resources/features/onAirPlay.feature:3&amp#27;[0m
@@ -197,15 +197,15 @@ Scenario: user play on air features   &amp#27;[90m# src/test/resources/features/
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser play On Air features&amp#27;[0m       &amp#27;[90m# step_definitions.OnAirPlaySteps.clickOnAir()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mopen and play on air programme&amp#27;[0m &amp#27;[90m# step_definitions.OnAirPlaySteps.validateUserPlayOnLiveProgramme()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 38369
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 9097
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:43:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:46:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check search is successful with valid credentials" classname="Search functionalities" time="7.889">
+  <testcase name="Check search is successful with valid credentials" classname="Search functionalities" time="7.919">
     <system-out><![CDATA[
 @search
 Scenario: Check search is successful with valid credentials &amp#27;[90m# src/test/resources/features/search.feature:3&amp#27;[0m
@@ -214,140 +214,140 @@ Scenario: Check search is successful with valid credentials &amp#27;[90m# src/te
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on search button&amp#27;[0m                                &amp#27;[90m# step_definitions.SearchSteps.userClickOnSearchButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to result is education&amp#27;[0m             &amp#27;[90m# step_definitions.SearchSteps.validateSearchResultPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 11967
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 30250
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:43:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:46:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is successful with valid credentials #1" classname="Test Sign in functionalities" time="10.162">
+  <testcase name="Check Sign in is successful with valid credentials #1" classname="Test Sign in functionalities" time="11.681">
     <system-out><![CDATA[
 @positive_test
 Scenario: Check Sign in is successful with valid credentials                 &amp#27;[90m# src/test/resources/features/signIn.feature:8&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                           &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                          &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:43:58.928 [main] INFO  page_object.SignIn - User entered credentials
+16:47:05.997 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mmirmrhaman@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mm12345678&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                                 &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
-14:44:00.402 [main] INFO  page_object.SignIn - User is in user home page
+16:47:07.746 [main] INFO  page_object.SignIn - User is in user home page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to user home page&amp#27;[0m                                   &amp#27;[90m# step_definitions.SignInSteps.validateUserIsSignInSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 3354
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 32050
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:43:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:46:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is successful with valid credentials #2" classname="Test Sign in functionalities" time="9.294">
+  <testcase name="Check Sign in is successful with valid credentials #2" classname="Test Sign in functionalities" time="10.001">
     <system-out><![CDATA[
 @dataDriven_test
 Scenario Outline: Check Sign in is successful with valid credentials         &amp#27;[90m# src/test/resources/features/signIn.feature:21&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                           &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                          &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:08.228 [main] INFO  page_object.SignIn - User entered credentials
+16:47:16.026 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mmirmrhaman@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mm12345678&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                                 &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
-14:44:09.683 [main] INFO  page_object.SignIn - User is in user home page
+16:47:17.733 [main] INFO  page_object.SignIn - User is in user home page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to user home page&amp#27;[0m                                   &amp#27;[90m# step_definitions.SignInSteps.validateUserIsSignInSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 41943
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 27361
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is successful with valid credentials #3" classname="Test Sign in functionalities" time="9.721">
+  <testcase name="Check Sign in is successful with valid credentials #3" classname="Test Sign in functionalities" time="10.046">
     <system-out><![CDATA[
 @dataDriven_test
 Scenario Outline: Check Sign in is successful with valid credentials     &amp#27;[90m# src/test/resources/features/signIn.feature:22&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                       &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                      &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:17.812 [main] INFO  page_object.SignIn - User entered credentials
+16:47:26.124 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mjimyraj@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mJimy@123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                             &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
-14:44:19.420 [main] INFO  page_object.SignIn - User is in user home page
+16:47:27.772 [main] INFO  page_object.SignIn - User is in user home page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to user home page&amp#27;[0m                               &amp#27;[90m# step_definitions.SignInSteps.validateUserIsSignInSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 47025
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 40382
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is not successful with invalid credentials #1" classname="Test Sign in functionalities" time="8.427">
+  <testcase name="Check Sign in is not successful with invalid credentials #1" classname="Test Sign in functionalities" time="9.065">
     <system-out><![CDATA[
 @negative_test
 Scenario: Check Sign in is not successful with invalid credentials       &amp#27;[90m# src/test/resources/features/signIn.feature:25&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                       &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                      &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:27.225 [main] INFO  page_object.SignIn - User entered credentials
+16:47:36.245 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mjimyraj@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mJimy@000&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                             &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
-14:44:27.858 [main] INFO  page_object.SignIn - User is still in the sign in page
+16:47:36.867 [main] INFO  page_object.SignIn - User is still in the sign in page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login with wrong password&amp#27;[0m                       &amp#27;[90m# step_definitions.SignInSteps.validateUserIsFailedToSignInPassword()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 24529
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 28041
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is not successful with invalid credentials #2" classname="Test Sign in functionalities" time="9.567">
+  <testcase name="Check Sign in is not successful with invalid credentials #2" classname="Test Sign in functionalities" time="9.184">
     <system-out><![CDATA[
 @negative_test
 Scenario: Check Sign in is not successful with invalid credentials        &amp#27;[90m# src/test/resources/features/signIn.feature:31&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                        &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                       &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:36.712 [main] INFO  page_object.SignIn - User entered credentials
+16:47:45.368 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mjimyraj@gmail.came&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mJimy@123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                              &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
-14:44:37.348 [main] INFO  page_object.SignIn - User is still in the sign in page
+16:47:46.050 [main] INFO  page_object.SignIn - User is still in the sign in page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is failed to login with wrong Email&amp#27;[0m                           &amp#27;[90m# step_definitions.SignInSteps.validateUserIsFailedToSignInEmail()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 13532
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 13019
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check Sign in is successful with valid credentials using data table" classname="Test Sign in functionalities" time="10.637">
+  <testcase name="Check Sign in is successful with valid credentials using data table" classname="Test Sign in functionalities" time="10.263">
     <system-out><![CDATA[
 @dataDriven_test
 Scenario: Check Sign in is successful with valid credentials using data table &amp#27;[90m# src/test/resources/features/signIn.feature:37&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                            &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                           &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:47.949 [main] INFO  page_object.SignIn - user has clicked on sign in button
+16:47:56.222 [main] INFO  page_object.SignIn - user has clicked on sign in button
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on Sign in button entering credentials&amp#27;[0m                      &amp#27;[90m# step_definitions.SignInSteps.userClickOnSignInButtonEnteringCredentials(io.cucumber.datatable.DataTable)&amp#27;[0m
-14:44:48.024 [main] INFO  page_object.SignIn - User is in user home page
+16:47:56.303 [main] INFO  page_object.SignIn - User is in user home page
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is navigated to user home page&amp#27;[0m                                    &amp#27;[90m# step_definitions.SignInSteps.validateUserIsSignInSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 45550
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 24993
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Check sign in followed by sign out successful with valid credentials" classname="Test Sign out functionalities" time="15.817">
+  <testcase name="Check sign in followed by sign out successful with valid credentials" classname="Test Sign out functionalities" time="13.572">
     <system-out><![CDATA[
 @signOut
 Scenario: Check sign in followed by sign out successful with valid credentials &amp#27;[90m# src/test/resources/features/signOut.feature:7&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user is on the Home page&amp#27;[0m                                             &amp#27;[90m# step_definitions.SignInSteps.navigateToHomePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate to Sign in page&amp#27;[0m                                            &amp#27;[90m# step_definitions.SignInSteps.navigateToSignInPage()&amp#27;[0m
-14:44:59.368 [main] INFO  page_object.SignIn - User entered credentials
+16:48:05.043 [main] INFO  page_object.SignIn - User entered credentials
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters userEmail "&amp#27;[0m&amp#27;[32m&amp#27;[1mmirmrhaman@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mm12345678&amp#27;[0m&amp#27;[32m"&amp#27;[0m   &amp#27;[90m# step_definitions.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on signIn button&amp#27;[0m                                                   &amp#27;[90m# step_definitions.SignInSteps.clickOnSignInButton()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser is navigated to profile home page&amp#27;[0m                                  &amp#27;[90m# step_definitions.SignOutSteps.validateUserIsSignInSuccessfully()&amp#27;[0m
@@ -356,15 +356,15 @@ Scenario: Check sign in followed by sign out successful with valid credentials &
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on sign out&amp#27;[0m                                                        &amp#27;[90m# step_definitions.SignOutSteps.clickOnSignOut()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser get a confirmation sign out message&amp#27;[0m                                &amp#27;[90m# step_definitions.SignOutSteps.validateUserIsSignOutSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 25963
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 37221
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:44:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:47:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user play a radio" classname="Sounds functionality" time="28.596">
+  <testcase name="user play a radio" classname="Sounds functionality" time="28.297">
     <system-out><![CDATA[
 @sound
 Scenario: user play a radio              &amp#27;[90m# src/test/resources/features/sound.feature:6&amp#27;[0m
@@ -375,15 +375,15 @@ Scenario: user play a radio              &amp#27;[90m# src/test/resources/featur
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser navigate and play Radio Relax&amp#27;[0m &amp#27;[90m# step_definitions.SoundsSteps.playRadioRelax()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mRadio relax played&amp#27;[0m                &amp#27;[90m# step_definitions.SoundsSteps.validateRadioRelaxPlayedSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 31478
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 29372
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:45:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:48:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Select and play a video from Featured video" classname="TV functionality" time="56.489">
+  <testcase name="Select and play a video from Featured video" classname="TV functionality" time="56.619">
     <system-out><![CDATA[
 @tv
 Scenario: Select and play a video from Featured video &amp#27;[90m# src/test/resources/features/tv.feature:8&amp#27;[0m
@@ -392,15 +392,15 @@ Scenario: Select and play a video from Featured video &amp#27;[90m# src/test/res
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser play feature video and wait a moment&amp#27;[0m       &amp#27;[90m# step_definitions.TvSteps.playFeatureVideo()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser played featured video from home page&amp#27;[0m      &amp#27;[90m# step_definitions.TvSteps.validateUserPlayedFeatureVideoSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 8698
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 19616
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:45:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:48:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="user can edit weather broadcast" classname="Weather functionality" time="10.196">
+  <testcase name="user can edit weather broadcast" classname="Weather functionality" time="11.055">
     <system-out><![CDATA[
 @weather
 Scenario: user can edit weather broadcast   &amp#27;[90m# src/test/resources/features/weather.feature:7&amp#27;[0m
@@ -411,11 +411,11 @@ Scenario: user can edit weather broadcast   &amp#27;[90m# src/test/resources/fea
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser click on New York, United States&amp#27;[0m &amp#27;[90m# step_definitions.WeatherEditSteps.clickOnNewYork()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is on New York weather&amp#27;[0m          &amp#27;[90m# step_definitions.WeatherEditSteps.validateUserSelectedWeatherSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 6652
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 1437
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 25, 2021 2:46:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 25, 2021 4:49:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
