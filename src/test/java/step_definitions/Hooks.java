@@ -9,9 +9,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.ReadConfigFiles;
-import utilities.TestEnvironment;
 
-import java.net.MalformedURLException;
+import javax.swing.text.Utilities;
 import java.util.concurrent.TimeUnit;
 
 public class Hooks {
@@ -19,10 +18,9 @@ public class Hooks {
     static WebDriver driver;
 
     @Before
-    public void openBrowser() throws MalformedURLException {
+    public void openBrowser() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver = TestEnvironment.selectTestExecutionEnvironment();
         LOGGER.debug("Launch Chrome Browser");
         ActOn.browser(driver).openBrowser("https://www.bbc.com/");
         String url = ReadConfigFiles.getPropertyValue("BBCUrl");
