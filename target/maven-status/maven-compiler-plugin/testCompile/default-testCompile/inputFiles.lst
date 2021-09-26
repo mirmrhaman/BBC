@@ -1,7 +1,9 @@
 C:\AutomationProject\BBC\src\test\java\page_object\Home.java
 C:\AutomationProject\BBC\src\test\java\page_object\TV.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\WeatherEditSteps.java
+C:\AutomationProject\BBC\src\test\java\selenium_grid\SeleniumGrid_Chrome.java
 C:\AutomationProject\BBC\src\test\java\utilities\LoadConfigFiles.java
+C:\AutomationProject\BBC\src\test\java\selenium_grid\SeleniumGrid_Firefox.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\OnAirPlaySteps.java
 C:\AutomationProject\BBC\src\test\java\command_providers\ActOn.java
 C:\AutomationProject\BBC\src\test\java\page_object\Sound.java
@@ -34,3 +36,4 @@ C:\AutomationProject\BBC\src\test\java\command_providers\AssertThat.java
 C:\AutomationProject\BBC\src\test\java\page_object\OnAir.java
 C:\AutomationProject\BBC\src\test\java\page_object\SignIn.java
 C:\AutomationProject\BBC\src\test\java\step_definitions\FollowOnFaceBookSteps.java
+C:\AutomationProject\BBC\src\test\java\selenium_grid\SeleniumGrid_Edge.java

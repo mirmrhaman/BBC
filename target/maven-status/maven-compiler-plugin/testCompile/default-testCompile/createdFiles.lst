@@ -1,5 +1,6 @@
 page_object\Search.class
 page_object\Home.class
+selenium_grid\SeleniumGrid_Chrome.class
 utilities\TestEnvironment.class
 step_definitions\HomePageByBBCLogo.class
 command_providers\ElementActions.class
@@ -23,9 +24,11 @@ step_definitions\Hooks.class
 utilities\ReadConfigFiles.class
 page_object\NavigationBar.class
 utilities\LoadConfigFiles.class
+selenium_grid\SeleniumGrid_Edge.class
 page_object\Weather.class
 step_definitions\SoundsSteps.class
 page_object\SignIn.class
+selenium_grid\SeleniumGrid_Firefox.class
 command_providers\ActOn.class
 step_definitions\SignInSteps.class
 step_definitions\TvSteps.class
