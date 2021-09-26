@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
+import utilities.ReadConfigFiles;
 
 
 import java.net.URL;
@@ -15,8 +16,9 @@ public class SeleniumGrid_Chrome {
     @Test
     public void executeInAwsDocker() {
         ChromeOptions chromeOptions = new ChromeOptions();
+        String ec2Address = ReadConfigFiles.getPropertyValue("EC2PublicIp");
         try {
-            gridUrl = new URL("http://3.144.17.205/:4444/wd/hub");
+            gridUrl = new URL("http://" + ec2Address + ":4444/wd/hub");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -26,5 +28,4 @@ public class SeleniumGrid_Chrome {
         System.out.println(driver.getTitle());
         driver.quit();
     }
-
 }
