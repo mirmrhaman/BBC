@@ -24,7 +24,7 @@ public class SeleniumGrid_Firefox {
         }
 
         driver = new RemoteWebDriver(gridUrl, firefoxOptions);
-        driver.get("https://www.bbc.com/");
+        driver.get("https://www.amazon.com/");
         System.out.println(driver.getTitle());
         driver.quit();
     }

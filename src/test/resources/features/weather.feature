@@ -4,7 +4,7 @@ Feature: Weather functionality
     Given a user is on the Home page
 
   @weather
-  Scenario: user can edit weather broadcast
+  Scenario: user can edit weather broadcast (depends specify city/town)
   And user navigate to edit in weather
   When user enter location and click
     |SearchCity     |
